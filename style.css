@@ -35,3 +35,18 @@ p{
     left: 0%;
     z-index: 1;
 }
+
+@media screen and (width > 500px) and (Width <= 1000px) {
+    .grid-container {
+        width: 90vw;
+        height: 40vw;
+        transform: translate(6%, 20%);
+
+    }
+}
+
+@media screen and (max-width : 500px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+}
